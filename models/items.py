@@ -2,7 +2,7 @@ from models.item import *
 
 item1 = Item("Milk", 1, 1, False)
 item2 = Item("Jelly", 2, 4, False)
-item3 = Item("Carton of Eggs", 3, 2, False)
+item3 = Item("Carton of Eggs", 3, 2, True)
 
 items = [item1, item2, item3]
 

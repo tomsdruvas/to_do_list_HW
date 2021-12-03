@@ -1,0 +1,16 @@
+p {
+     margin:0;
+ } 
+
+.input-symbol {
+    position: relative;
+}
+.input-symbol input {
+    padding-left:18px;
+}
+.input-symbol:before {
+    position: absolute;
+    top: 0;
+    content:"£";
+    left: 5px;
+}
