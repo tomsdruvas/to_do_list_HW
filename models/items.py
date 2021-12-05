@@ -3,8 +3,9 @@ from models.item import *
 item1 = Item("Milk", 1, 1, False)
 item2 = Item("Jelly", 2, 4, False)
 item3 = Item("Carton of Eggs", 3, 2, True)
+item4 = Item("Ketchup", 10, 5, True)
 
-list_of_items = [item1, item2, item3]
+list_of_items = [item1, item2, item3, item4]
 
 def add_new_item(item):
     list_of_items.append(item)
